@@ -1,0 +1,11 @@
+[package]
+name = "mango_swap"
+
+[dependencies]
+#Mgo = { git = "https://github.com/MangoNetworkOs/Mango.git", subdir = "crates/mgo-framework/packages/mgo-framework", rev = "framework/devnet" }
+MoveStdlib = {local = "../../../../mgo-devnet/move-stdlib" }
+Mgo = { local = "../../../../mgo-devnet/mgo-framework" }
+
+[addresses]
+mango_swap = "0x0"
+#mgo = "0x2"
